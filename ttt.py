@@ -1,5 +1,3 @@
-# coding=UTF8
-
 # Python TicTacToe game with Tk GUI and minimax AI
 # Author: Maurits van der Schee <maurits@vdschee.nl>
 
@@ -12,7 +10,7 @@ class Board:
   def __init__(self,other=None):
     self.player = 'X'
     self.opponent = 'O'
-    self.empty = '.'
+    self.empty = '_'
     self.size = 3
     self.fields = {}
     for y in range(self.size):
